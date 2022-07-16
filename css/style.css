@@ -1,0 +1,152 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;500;700&display=swap');
+
+:root {
+    --skyblue:#c4eeff;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--skyblue);
+    font-family: 'NanumGaRamYeonGgoc';
+}
+
+.hidden {
+    display: none;
+}
+
+.bg-img {
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+.bg-img img {
+    height: 70vh;
+}
+.info {
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login-form {
+    margin-top: 30%;
+}
+#login-form input {
+    border: none;
+    background-color: var(--skyblue);
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 30px;
+}
+#login-form input::placeholder {
+    text-align: center;
+}
+#login-form button {
+    border: none;
+    background-color: var(--skyblue);
+}
+
+#clock {
+    margin-top: 20%;
+    font-size: 100px;
+    font-weight: 700;
+}
+#greeting {
+    font-size: 50px;
+    margin-top: 5%;
+    font-weight: 700;
+}
+
+#todo {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    position: relative;
+}
+#todo > span {
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+#todo-form {
+    position: absolute;
+    bottom: 10px;
+}
+#todo-form input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 30px;
+}
+#todo-form input::placeholder {
+    text-align: center;
+}
+#todo-list {
+    margin-top: 10px;
+}
+#todo-list span {
+    font-size: 25px;
+}
+#todo-list li {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    height: 27px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#todo-list button {
+    border: none;
+    background-color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#quote {
+    position: fixed;
+    bottom: 0rem;
+}
+#quote {
+    position: fixed;
+    bottom: 2rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 25%;
+}
+#quote span {
+    font-size: 20px;
+}
+#quote span:last-child {
+    margin-left: 1rem;
+    font-size: 15px;
+}
+#weather {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    left: 25%;
+    bottom: 0.5rem;
+}
+#weather span {
+    font-size: 18px;
+}
+#weather span:last-child {
+    margin-left: 1.5rem;
+}
