@@ -29,7 +29,7 @@ body {
     top: 0;
 }
 .bg-img img {
-    height: 70vh;
+    height: 80vh;
 }
 .info {
     margin-left: 50%;
@@ -39,7 +39,7 @@ body {
 }
 #login-form {
     position: fixed;
-    top: 20rem;
+    top: 45%;
     left: 45%;
 }
 #login-form input {
